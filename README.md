@@ -37,3 +37,10 @@ git tag -a <tag> -m message
 git push --tags
 git fetch --tags
 ```
+
+## Configs
+
+```bash
+# Create aliases
+git config --global alias.<alias_name> <command>
+```
