@@ -6,11 +6,11 @@
 # Overwrite last commit
 git commit -m <message> -a --amend
 
-# Undo last commit, DISCARTING ALL CHANGES (dangerous command)
-git reset --hard HEAD~1
-
 # Undo last commit, keeping changes (dangerous command)
 git reset --soft HEAD~1
+
+# Undo last commit, DISCARTING ALL CHANGES
+git reset --hard HEAD~1
 ```
 
 ## Remote repositories
