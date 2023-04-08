@@ -6,10 +6,10 @@
 # Overwrite last commit
 git commit -m <message> -a --amend
 
-# Undo last commit, keeping changes (dangerous command)
+# Undo last commit, keeping changes 
 git reset --soft HEAD~1
 
-# Undo last commit, DISCARTING ALL CHANGES
+# Undo last commit, DISCARTING ALL CHANGES (dangerous command)
 git reset --hard HEAD~1
 ```
 
