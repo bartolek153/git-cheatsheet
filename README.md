@@ -2,9 +2,10 @@
 # Git Commands Cheatsheet
 
 ## Basic Actions
+
 ```bash
-# Overwrite last commit
-git commit -m <message> -a --amend
+# Overwrite last commit, without changing commit message
+git commit -m <message> -a --amend --no-edit
 
 # Undo last commit, keeping changes 
 git reset --soft HEAD~1
